@@ -110,12 +110,23 @@ st.markdown(
        UPLOAD BOX
        ===================================================== */
 
-    [data-testid="stFileUploader"] {
-        background: #FFF9F0;
-        border: 2px dashed #B98A63;
-        border-radius: 16px;
-        padding: 8px;
-    }
+   [data-testid="stFileUploader"] {
+    background: #FFF9F0 !important;
+    border: 2px dashed #B98A63;
+    border-radius: 16px;
+    padding: 8px;
+}
+
+[data-testid="stFileUploaderDropzone"] {
+    background: #FFF9F0 !important;
+    border: 1px dashed #D9C4AB !important;
+    border-radius: 12px !important;
+}
+
+[data-testid="stFileUploaderDropzone"] * {
+    background: transparent !important;
+    color: #000000 !important;
+}
 
     [data-testid="stFileUploader"] *,
     [data-testid="stFileUploader"] label,
